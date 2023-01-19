@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'sidemenuPodDemo1_Example' do
+  pod 'sidemenuPodDemo1', :path => '../'
+
+  target 'sidemenuPodDemo1_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
