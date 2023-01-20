@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'sidemenuPodDemo1'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of sidemenuPodDemo1.'
+  s.summary          = 'Simple side menu control for iOS in Swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'Simple side menu control for iOS in Swift'
                        DESC
 
   s.homepage         = 'https://github.com/alekyaios/sidemenuPodDemo1'
@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'sidemenuPodDemo1/Classes/**/*'
+  
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'sidemenuPodDemo1' => ['sidemenuPodDemo1/Assets/*.png']
