@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'sidemenuPodDemo1/Classes/**/*'
+  s.source_files = 'sidemenuPodDemo1/Class/**/*'
   
   s.swift_version = '5.0'
   
