@@ -144,6 +144,7 @@
 		0BC2BAD8297A7544007EDB45 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				0BC2BAB1297A5F90007EDB45 /* Controllers */,
 				0BC2BACC297A5FF8007EDB45 /* SideMenuViewController.swift */,
 				0BC2BAC8297A5FEA007EDB45 /* MainViewController.swift */,
 				0BC2BAC1297A5FBA007EDB45 /* SideMenutableCell */,
@@ -223,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				0BC2BAD8297A7544007EDB45 /* Class */,
-				0BC2BAB1297A5F90007EDB45 /* Controllers */,
 				2B0C0DD8FD6C49E6D07129A6091589A2 /* Pod */,
 				938B64FFE43D58B4DAC2A0D9C232ACC0 /* Support Files */,
 			);
